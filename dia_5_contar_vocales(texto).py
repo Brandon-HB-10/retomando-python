@@ -3,6 +3,6 @@ def contar_vocales(texto):
     for letra in texto:
         if letra in "aeiou":
            vocales += 1
-    return vocales 
-            
+    return vocales
+    
 print(contar_vocales("Python"))
